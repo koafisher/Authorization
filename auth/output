@@ -1,0 +1,82 @@
+nohup: ignoring input
+
+> auth@0.0.0 start /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth
+> node ./bin/www
+
+before / Route
+[0mPOST /login [36m302 [0m31.600 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m7.970 ms - 1012[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.905 ms - -[0m
+[0mGET /stylesheets/peackock.jpg [36m304 [0m1.550 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m3.197 ms - 2224[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:330:12)
+/signup Route
+[0mGET /signup [36m304 [0m1.633 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m12.525 ms - -[0m
+[0mGET /stylesheets/peackock.jpg [36m304 [0m0.987 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.521 ms - 2224[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-12T17:41:16.829Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m4.447 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.694 ms - 1011[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.948 ms - -[0m
+[0mGET /stylesheets/peackock.jpg [36m304 [0m1.793 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.809 ms - 2224[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/cs260/creative_auth/auth/node_modules/express/lib/router/index.js:330:12)
